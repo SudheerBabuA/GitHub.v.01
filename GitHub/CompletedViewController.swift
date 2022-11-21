@@ -1,5 +1,5 @@
 //
-//  LoadViewController.swift
+//  CompletedViewController.swift
 //  GitHub
 //
 //  Created by Avudari Sudheer Babu on 21/11/22.
@@ -7,17 +7,15 @@
 
 import UIKit
 
-class LoadViewController: UIViewController {
+class CompletedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        load()
+        print("Task is completed")
     }
-    func load() {
-        print("loaded")
-    }
+    
 
     /*
     // MARK: - Navigation
